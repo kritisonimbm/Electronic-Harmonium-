@@ -1,8 +1,8 @@
 #  Touch-Based Electronic Harmonium Using 555 Timer IC
 
 ##  Project Overview
-This project is a **touch-operated electronic harmonium** designed using a **555 timer IC** and a **resistor network**.  
-Instead of mechanical keys, **copper touch pads on a custom PCB** are used. When a pad is touched, a corresponding musical note is produced through a speaker.
+This project is a **electronic harmonium** designed using a **555 timer IC** and a **resistor network**.
+Instead of mechanical keys, copper pads on a custom PCB are played using a metal probe. When the probe touches a pad, a corresponding musical note is produced through a speaker.
 
 The project is completely **hardware-based** and does **not use any microcontroller or programming language**.
 
@@ -36,6 +36,7 @@ Each note is produced by a specific resistor value connected in the 555 timer ci
 - The speaker converts this frequency into an audible musical note.
 
 ### Frequency Equation
+f = 1.44 / ((R1 + 2R2) × C)
 
 Where:
 - `R2` changes with each touch pad  
